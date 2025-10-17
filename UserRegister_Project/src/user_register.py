@@ -1,4 +1,6 @@
 from typing import Dict, List
+import json
+import re
 
 
 class UserRegister:
@@ -13,6 +15,19 @@ class UserRegister:
     # Za svaki fajl, otvara ga i učitava JSON podatke json.load(file)
     # Poziva metodu _process_users za obradu korisnika iz učitanih podataka
     # Obrada grešaka prilikom učitavanja fajlova (pomocu izuzetaka)
+    def _load_files(self, input_files: List[str]):
+        for file_path in input_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    data = json.load(file)
+                    self._process_users(data, file_path)
+            except FileNotFoundError:
+                print(f"File not found: {file_path}")
+            except json.JSONDecodeError:
+                print(f"Invalid JSON format in file: {file_path}")
+            except Exception as e:
+                print(f"Unexpected error while loading file {file_path}: {str(e)}")
+
     
     def _process_users(self, data: List[Dict], file_path: str):
         for user in data:
@@ -52,15 +67,20 @@ class UserRegister:
                 print(f"Error processing user in file {file_path}: {str(e)}")
 
     # 1. Sladja
-    def _is_valid_email(email: str) -> bool:
         # Provjerava da li je uneseni email validan
         # Definise se odgovarajuci pattern
         # Vraća True ako je email validan, False inače
+    def _is_valid_email(self, email: str) -> bool:
+        pattern = r'^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$'
+        return re.match(pattern, email) is not None
+
     
     # 1. Sladja
-    def _is_valid_ipv4(ip: str) -> bool:
         # Provjerava da li je unesena IPv4 adresa validna
         # Isto se definise pattern, vraca true ako jeste u suprotnom false
+    def _is_valid_ipv4(self, ip: str) -> bool:
+        pattern = r'^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$'
+        return re.match(pattern, ip) is not None
 
     def __getitem__(self, email: str) -> Dict:
         if email not in self._users:
@@ -108,15 +128,19 @@ class UserRegister:
     # 3. Uros
     def __add__(self, other: 'UserRegister') -> 'UserRegister':
     # Metoda za dodavanje novog registra korisnika, radi se unija, vraca se novi registar
+        pass
 
     # 3. Uros
     def __mul__(self, other: 'UserRegister') -> 'UserRegister':
     # Metoda za mnozenje dva registra korisnika, radi se presjek, vraca se novi registar
+        pass
 
     # 3. Uros
     def print_register(self):
     # Metoda za ispis sadrzaja registra na standardni izlaz u odredjenom formatu
+        pass
 
     # 3. Uros
     def __len__(self) -> int:
     # Preklopljena metoda za dobijanje broja korisnika u registru
+        pass
