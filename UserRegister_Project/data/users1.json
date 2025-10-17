@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Petar Petrovic",
+        "email": "abc@def.com",
+        "ip": "245.125.132.6",
+        "devices": ["desktop RTRK-03", "mobile MB-546", "watch W-123"]
+    },
+    {
+        "name": "Janko Jankovic",
+        "email": "janko@jankovic.rs",
+        "ip": "2.111.255.12",
+        "devices": ["desktop RTRK-07", "lamp L-0125"]
+    },
+    {
+        "name": "Ana Anic",
+        "email": "ana.anic@gmail.com",
+        "ip": "192.168.1.1",
+        "devices": ["tablet T-001", "mobile MB-999"]
+    },
+    {
+        "name": "Marko Markovic",
+        "email": "marko@markovic.net",
+        "ip": "10.0.0.5",
+        "devices": ["desktop RTRK-09"]
+    },
+    {
+        "name": "Ivana Ivanovic",
+        "email": "ivana@ivanovic.org",
+        "ip": "172.16.254.1",
+        "devices": ["mobile MB-123"]
+    },
+    {
+        "name": "Luka Lukic",
+        "email": "lukalukic.com",
+        "ip": "256.300.1.1",
+        "devices": ["desktop RTRK-11"]
+    },
+    {
+        "name": "Milica Milic",
+        "email": "milica@milic.com",
+        "ip": "192.0.2.146",
+        "devices": ["watch W-456"]
+    },
+    {
+        "name": "Nikola Nikolic",
+        "email": "nikola@nikolic.rs",
+        "ip": "203.0.113.5",
+        "devices": ["lamp L-789"]
+    }
+]

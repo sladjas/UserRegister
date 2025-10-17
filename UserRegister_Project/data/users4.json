@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Aleksandar Aleksic",
+        "email": "aleksandar@aleksic.com",
+        "ip": "203.0.113.30",
+        "devices": ["lamp L-654"]
+    },
+    {
+        "name": "Petar Petrovic",
+        "email": "abc@def.com",
+        "ip": "245.125.132.6",
+        "devices": ["mobile MB-777"]
+    },
+    {
+        "name": "Kristina Kristic",
+        "email": "kristina@kristic.net",
+        "ip": "192.0.2.250",
+        "devices": ["watch W-321"]
+    },
+    {
+        "name": "Bojan Bojanic",
+        "email": "bojan@bojanic.org",
+        "ip": "198.51.100.200",
+        "devices": ["desktop RTRK-30"]
+    },
+    {
+        "name": "Maja Majic",
+        "email": "maja@majic.com",
+        "ip": "172.16.0.1",
+        "devices": ["tablet T-005"]
+    },
+    {
+        "name": "Zoran Zoranovic",
+        "email": "zoran@zoranovic.rs",
+        "ip": "192.168.10.10",
+        "devices": ["mobile MB-111"]
+    },
+    {
+        "name": "Invalid Format",
+        "email": "@invalid.com",
+        "ip": "300.300.300.300",
+        "devices": ["unknown"]
+    },
+    {
+        "name": "Valid User 2",
+        "email": "valid2@user.com",
+        "ip": "10.1.1.1",
+        "devices": ["lamp L-999"]
+    }
+]

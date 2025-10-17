@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Petar Petrovic",
+        "email": "abc@def.com",
+        "ip": "245.125.132.6",
+        "devices": ["tablet T-002"]
+    },
+    {
+        "name": "Jelena Jelic",
+        "email": "jelena@jelic.com",
+        "ip": "198.51.100.42",
+        "devices": ["mobile MB-321"]
+    },
+    {
+        "name": "Stefan Stevic",
+        "email": "stefan@stevic.net",
+        "ip": "203.0.113.10",
+        "devices": ["desktop RTRK-15"]
+    },
+    {
+        "name": "Sara Saric",
+        "email": "sara@saric.org",
+        "ip": "192.168.0.100",
+        "devices": ["watch W-789"]
+    },
+    {
+        "name": "Milan Milic",
+        "email": "milan@milic.com",
+        "ip": "10.10.10.10",
+        "devices": ["lamp L-456"]
+    },
+    {
+        "name": "Tamara Tamaric",
+        "email": "tamara@tamaric.rs",
+        "ip": "172.20.10.2",
+        "devices": ["mobile MB-654"]
+    },
+    {
+        "name": "Filip Filipovic",
+        "email": "filip@filipovic.com",
+        "ip": "192.168.100.100",
+        "devices": ["desktop RTRK-20"]
+    },
+    {
+        "name": "Invalid User",
+        "email": "invalidemail.com",
+        "ip": "999.999.999.999",
+        "devices": ["unknown"]
+    }
+]

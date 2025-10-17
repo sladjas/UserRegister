@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Katarina Kataric",
+        "email": "katarina@kataric.com",
+        "ip": "192.168.1.100",
+        "devices": ["tablet T-003"]
+    },
+    {
+        "name": "Petar Petrovic",
+        "email": "abc@def.com",
+        "ip": "245.125.132.6",
+        "devices": ["desktop RTRK-99"]
+    },
+    {
+        "name": "Dusan Dusanovic",
+        "email": "dusan@dusanovic.net",
+        "ip": "203.0.113.20",
+        "devices": ["mobile MB-888"]
+    },
+    {
+        "name": "Marija Maric",
+        "email": "marija@maric.org",
+        "ip": "192.0.2.200",
+        "devices": ["lamp L-321"]
+    },
+    {
+        "name": "Nenad Nenadic",
+        "email": "nenad@nenadic.com",
+        "ip": "198.51.100.100",
+        "devices": ["watch W-654"]
+    },
+    {
+        "name": "Teodora Teodoric",
+        "email": "teodora@teodoric.rs",
+        "ip": "10.0.0.10",
+        "devices": ["desktop RTRK-25"]
+    },
+    {
+        "name": "Invalid IP",
+        "email": "valid@email.com",
+        "ip": "abc.def.ghi.jkl",
+        "devices": ["mobile MB-000"]
+    },
+    {
+        "name": "Valid User",
+        "email": "valid@user.com",
+        "ip": "192.168.2.2",
+        "devices": ["tablet T-004"]
+    }
+]
